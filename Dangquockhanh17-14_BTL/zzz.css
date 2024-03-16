@@ -1,0 +1,249 @@
+*{
+    margin: 0;
+    padding: 0;
+}
+header {
+    background-color:palevioletred;
+    color: white;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding:10px;
+    border: 1px solid black;
+}
+img{
+    width: 60px;
+    height: 60px;
+    display: flex;
+}
+.search-section input{
+    padding-right: 400px;
+    padding-bottom: 10px;
+    padding-top: 10px;
+    font-size: larger;
+}
+.search{
+    margin-left: 41px;
+    margin-top: 2px;
+}
+.search a{
+    margin-right: 10px;
+    margin-right: 10px;
+    text-decoration: none;
+}
+.text_1:hover{
+    background-color: violet;
+    border-radius: 10px;
+    padding: 2px;
+    padding-bottom: 6px;
+}
+nav{
+    font-size: large;
+    display: flex;
+}
+nav a{
+    text-decoration: none;
+    display: flex;
+}
+nav a:hover{
+    color: aqua;
+}
+nav a::before {
+    content:""; 
+    display: inline-block;
+    width: 30px; 
+    height: 30px; 
+    background-size: cover; 
+    margin-right: 5px;
+}
+.space{
+    background: pink;
+    padding-bottom: 640px;
+    padding-right: 9px;
+    padding-top: 1px;
+
+}
+.list{
+    background-color:#ccc ;
+    border-radius: 10px;
+    margin-left: 8px;
+    margin-top: 5px;
+}
+.item{
+    text-align: center;
+    margin: 0 10px;
+    margin-right: 100px;
+}
+.item a {
+    display: flex;
+    align-items: center;
+    text-decoration: none;
+    color: black;
+
+}
+.item_top img{
+    margin-left: 115px;
+    margin-top: 10px;
+    margin-bottom: 5px;
+}
+.item_top .text:hover{
+    font-family: cursive;
+    border-radius: 10px;
+}
+.list_1{
+    background-color:black ;
+    border-radius: 10px;
+    padding: 0px;
+    height: 100px;
+    width: 100px;
+}
+.background{
+    background-color:whitesmoke;
+    border-radius: 10px;
+    padding-bottom: 20px;
+    margin-top: 30px;
+    margin-left: 30px;
+    width: 324px;
+    height: 550px;
+    float: left;
+}
+.background_left{
+    float: left;
+}
+.background h1{
+    padding-top: 10px;
+    padding-left: 10px;
+    font-family: cursive;
+    font-size: 30px;
+}
+.background a{
+    text-decoration: none;
+    display: flex;
+    font-size: large;
+    font-family: cursive;
+    margin-left: 10px;
+    margin-right: 400px;
+    padding-top: 10px;
+}
+.background a:hover{
+    margin-left: 20px;
+}
+.background_1{
+    background-color:white;
+    border-radius: 10px;
+    padding-bottom: 20px;
+    padding-right: 730px;
+    margin-top: 30px;
+    margin-left: 30px;
+    width: 324px;
+    height: 550px;
+    float: left;
+}
+.background_1 a{
+    text-decoration: none;
+}
+.background_1_top{
+    color: rgb(74, 3, 59);
+    margin-left: 20px;
+    margin-top: 20px;
+}
+
+.slide{
+    background-color: blue;
+    width: 312%;
+    height: 35%;
+    border-radius: 4px;
+    margin-top: 7px;
+    margin-left: 20px;
+    padding-bottom: 15px;
+}
+
+.image_1{
+    margin-top: 13px;
+    border-radius: 4px;
+    height: 13%;
+    width: 13%;
+    margin-left: 16px;
+    margin-right: 20px;
+    border: 1px solid black;
+    transition: transform 0.3s;
+}
+.image_1:hover{
+    transform: scale(1.1);
+}
+.background_1_bottom{
+    color: rgb(74, 3, 59);
+    margin-left: 20px;
+    margin-top: 40px;
+}
+.image_2:hover{
+    transform: scale(1.1);
+}
+.flex{
+    padding-top: 10px;
+    margin-left: 10px;
+    display: flex;
+}
+h2{
+    font-size: 17px;
+    color: black;
+    margin-top: 6px;
+    text-align: center;
+    margin-bottom: 10px;
+}
+div .danh-muc-1{
+    float: left;
+    background-color: red;
+    border-radius: 10px;
+    margin-left: 14px;
+}
+div .danh-muc-2{
+    float: left;
+    margin-left: 20px;
+    background-color: yellowgreen;
+    border-radius: 10px;
+}
+div .danh-muc-3{
+    float: left;
+    margin-left: 20px;
+    background-color: rgb(238, 240, 118);
+    border-radius: 10px;
+}
+div .danh-muc-4{
+    float: left;
+    margin-left: 20px;
+    background-color: rgb(75, 103, 240);
+    border-radius: 10px;
+}
+div .danh-muc-5{
+    float: left;
+    margin-left: 20px;
+    background-color: rgb(101, 24, 86);
+    border-radius: 10px;
+}
+div .danh-muc-6{
+    float: left;
+    margin-left: 20px;
+    background-color: rgb(138, 143, 78);
+    border-radius: 10px;
+}
+.hinh-anh-1{
+    height: 130px;
+    width: 130px;
+    padding-right: 7px;
+    float: left;
+    margin-top: 7px;
+    margin-bottom: 7px;
+    margin-left: 7px;
+    border-radius: 10px;
+    transition: transform 0.3s;
+}
+.danh-muc{
+    padding-right: 10px;
+}
+.hinh-anh-1:hover{
+    transform: scale(1.1); 
+}
+.dangnhap{
+    color:blue;
+}
